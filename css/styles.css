@@ -2,3 +2,17 @@ h1 {
     color: royalblue;
     text-align: center;
 }
+
+a::before {
+    content: "\21d2 Click here: ";
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+p::selection {
+    color: red;
+    background-color: yellow;
+}
